@@ -22,8 +22,8 @@ const SignInScreen = () => {
           ]}
           source={Logo}
         />
-        <TextBox placeholder="Username" value={Username} setvalue={setusername} />
         
+        <TextBox placeholder="Username" value={Username} setvalue={setusername} />
         <TextBox placeholder="Password" value={Password} setvalue={setPassword} HideText={true} />
         
         <Button 
