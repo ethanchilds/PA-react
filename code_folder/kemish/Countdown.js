@@ -1,6 +1,3 @@
-// React Native CountDown Timer | react-native-countdown-component
-// https://aboutreact.com/react-native-countdown-timer/
-
 // import React in our code
 import React, { useState, useEffect } from 'react';
 
