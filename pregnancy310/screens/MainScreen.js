@@ -52,7 +52,7 @@ function Main() {
           ),
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Setting"
         component={SettingScreen}
         options={{
@@ -64,7 +64,7 @@ function Main() {
             />
           ),
         }}
-      />
+      /> */}
     </Tab.Navigator>
   );
 }
