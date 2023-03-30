@@ -4,10 +4,11 @@ import HomeScreen from './HomeScreen'
 import NamesScreen from './NamesScreen'
 import UserScreen from './UserScreen'
 import SettingScreen from './SettingScreen'
+import CountdownScreen from './CountdownScreen'
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {Ionicons} from '@expo/vector-icons';
-import countDown from './Countdown'
+import CountDown from 'react-native-countdown-component'
 
 const Tab = createBottomTabNavigator();
 
@@ -54,8 +55,8 @@ function Main() {
         }}
       />
       <Tab.Screen
-        name="countDown"
-        component={countDown}
+        name="Countdown"
+        component={CountdownScreen}
         options={{
           tabBarIcon: (tabInfo) => (
             <Ionicons 

@@ -12,11 +12,12 @@ import moment from 'moment';
 import TextBox from 'pregnancy310/assets/TextBox.js';
 import Button from 'pregnancy310/assets/Button.js';
 
-const App = () => {
+const CountdownScreen = () => {
   const [totalDuration, setTotalDuration] = React.useState(0);
   const [ expirydate, setExpiryDate] = React.useState()
   const [refreshing, setRefreshing] = React.useState(false);
 
+  
   const refresh = () => window.location.reload(true)
 
   const onRefresh = React.useCallback(() => {
@@ -93,7 +94,7 @@ const App = () => {
   );
 };
 
-export default countDown;
+export default CountdownScreen;
 
 const styles = StyleSheet.create({
 
