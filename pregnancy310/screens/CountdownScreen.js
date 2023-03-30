@@ -12,7 +12,7 @@ import moment from 'moment';
 import TextBox from 'pregnancy310/assets/TextBox.js';
 import Button from 'pregnancy310/assets/Button.js';
 
-const CountdownScreen = () => {
+function CountdownScreen () {
   const [totalDuration, setTotalDuration] = React.useState(0);
   const [ expirydate, setExpiryDate] = React.useState()
   const [refreshing, setRefreshing] = React.useState(false);
@@ -94,7 +94,7 @@ const CountdownScreen = () => {
   );
 };
 
-export default CountdownScreen;
+export default function CountdownScreen();
 
 const styles = StyleSheet.create({
 
