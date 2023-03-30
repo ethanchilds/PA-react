@@ -4,7 +4,7 @@ This software was created with the intention of creating a basic pregnancy app. 
 
 The main components of this app are a daily water intake tracker, an expected due date countdown, and a section for listing out possible baby names. These features can be seen and used by interacting with a task bar at the bottom of the app.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/GOgJ1UYU8GU)
 
 # Development Environment
 
