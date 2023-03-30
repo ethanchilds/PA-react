@@ -9,8 +9,8 @@ import CountDown from 'react-native-countdown-component';
 
 //import moment to help you play with date and time
 import moment from 'moment';
-import TextBox from './TextBox';
-import Button from './Button';
+import TextBox from 'pregnancy310/assets/TextBox.js';
+import Button from 'pregnancy310/assets/Button.js';
 
 const App = () => {
   const [totalDuration, setTotalDuration] = React.useState(0);
