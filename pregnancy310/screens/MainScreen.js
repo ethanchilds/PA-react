@@ -9,6 +9,7 @@ import CountdownScreen from './CountdownScreen'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {Ionicons} from '@expo/vector-icons';
 import CountDown from 'react-native-countdown-component'
+import CountdownScreen from './CountdownScreen'
 
 const Tab = createBottomTabNavigator();
 
