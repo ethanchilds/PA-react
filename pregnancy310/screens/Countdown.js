@@ -93,7 +93,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default countDown;
 
 const styles = StyleSheet.create({
 

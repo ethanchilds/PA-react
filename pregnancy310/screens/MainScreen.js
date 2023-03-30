@@ -7,6 +7,7 @@ import SettingScreen from './SettingScreen'
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {Ionicons} from '@expo/vector-icons';
+import countDown from './Countdown'
 
 const Tab = createBottomTabNavigator();
 
@@ -42,6 +43,19 @@ function Main() {
       <Tab.Screen
         name="User"
         component={UserScreen}
+        options={{
+          tabBarIcon: (tabInfo) => (
+            <Ionicons 
+              name="person-outline"
+              size={tabInfo.focused ? 26 : 20}
+              color={tabInfo.tintColor}
+            />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="countDown"
+        component={countDown}
         options={{
           tabBarIcon: (tabInfo) => (
             <Ionicons 
