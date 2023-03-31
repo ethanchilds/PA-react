@@ -17,15 +17,7 @@ function CountdownScreen () {
   const [ expirydate, setExpiryDate] = React.useState()
   const [refreshing, setRefreshing] = React.useState(false);
 
-  
-  const refresh = () => window.location.reload(true)
 
-  const onRefresh = React.useCallback(() => {
-    setRefreshing(true);
-    setTimeout(() => {
-      setRefreshing(false);
-    }, 2000);
-  }, []);
 
   const onChangeHandler = (event) => {
     setExpiryDate(event.target.value);
