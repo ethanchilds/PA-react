@@ -4,6 +4,7 @@ import HomeScreen from './HomeScreen'
 import NamesScreen from './NamesScreen'
 import UserScreen from './UserScreen'
 import SettingScreen from './SettingScreen'
+import CountdownScreen from './CountdownScreen'
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {Ionicons} from '@expo/vector-icons';
@@ -67,7 +68,6 @@ function Main() {
           ),
         }}
       />
-
       {/* <Tab.Screen
         name="Setting"
         component={SettingScreen}
